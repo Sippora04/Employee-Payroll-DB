@@ -98,16 +98,16 @@ CREATE TABLE employee_department
 );
 
 INSERT INTO company VALUES 					
- 	(1,'ABC'),
- 	(2,'DEF'),
- 	(3,'GHI');
+ 	(1,'Reliance'),
+ 	(2,'Tata'),
+ 	(3,'HM');
 INSERT INTO employee VALUES 					
- 	(101, 1, 'Bill', '9876543210', 'California', 'M' ),
-	(102, 1, 'Terisa', '8876543211', 'San Francisco', 'F' ),
-	(103, 2, 'Charlie', '7876543212', 'New York', 'M' );
+ 	(101, 1, 'Bill', '7717654009', 'California', 'M' ),
+	(102, 1, 'Terisa', '8156640201', 'San Francisco', 'F' ),
+	(103, 2, 'Charlie', '9899053203', 'New York', 'M' );
 INSERT INTO payroll VALUES 			
- 	(101,100000,10000,90000,5000,85000),
- 	(102,200000,20000,180000,10000,170000),
+ 	(101,100000,10000,80000,4000,94000),
+ 	(102,300000,30000,180000,10000,170000),
  	(103,80000,6000,74000,2000,72000);
 INSERT INTO department VALUES  		
  	(11, 'Sales'),
