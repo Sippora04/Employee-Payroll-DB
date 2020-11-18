@@ -120,3 +120,8 @@ INSERT INTO department VALUES
  	(102,11),
  	(103,14);
 
+#UC12
+SELECT gender, COUNT(net_pay) FROM (employee INNER JOIN payroll ON employee.id=payroll.emp_id) GROUP BY gender;
+SELECT gender, AVG(net_pay) FROM (employee INNER JOIN payroll ON employee.id=payroll.emp_id) GROUP BY gender;
+SELECT gender, MAX(net_pay) FROM (employee INNER JOIN payroll ON employee.id=payroll.emp_id) GROUP BY gender;
+
